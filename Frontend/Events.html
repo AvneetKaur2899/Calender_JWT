@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./calender.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0  shrink-to-fit=no">
+    <title>Events</title>
+    <style>
+
+        body{background-image: url(./calender_images/bg-img1.svg);
+            display:flex;
+           flex-wrap: wrap;
+           padding: 4px;
+           width:100vw;
+           height:100vh;
+           background-attachment:fixed;
+           background-position: center;
+           background-repeat:no-repeat;
+           background-size: cover;
+        }
+        
+ body {
+  height: 100%;
+  text-align : center;
+  font-family:cursive ;
+  margin: auto;
+  align-items: center;
+ }
+
+  /* Styling for UI */
+
+table, td, th {
+    border: 1px solid black;
+  }
+table{
+    
+    margin-top: 3%;
+    width: 100vw;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right:auto ;
+    align-items:center;
+}
+th, td {
+    border-radius: 1px;
+    padding: 15px;
+    text-align: left;
+  }
+  label{
+    font-size:15px;
+    font-weight: bold;
+  }
+
+  
+
+ 
+
+</style>
+</head>
+<body>
+    <div class="flex-container" style="align-items:right;">
+        <button id="logout" onclick="LogOut().style.display='block'" style="width:4rem;height:2.5rem ;background-color: rgb(214, 85, 149);align-content: center;color: rgb(5, 5, 5);font-weight: bold;margin: 1vw;border: none;cursor: pointer;">Log Out</button>
+        <button id="fetch" type="button" onclick="FetchData()" style=" width:4rem;height:2.5rem ;background-color: rgb(214, 85, 149);color: rgb(0, 0, 10);">Fetch</button>
+</div>
+
+   
+    <!-- <div class="flex-container" style="background-color: crimson;align-items: center;">
+    <h1 class="display" style="font-family: cursive; font-size: 250%;text-align: center;">List of Events</h1>
+</div> -->
+
+<div >
+    <h1 style="font-size: 40px;"> List of Events </h1>
+   <table >
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>EventName</th>
+                <th>Date</th>
+                <th>Country</th>
+                <th colspan="2">Action</th>
+                
+                <!-- <th>City</th>
+                <th>Action</th> -->
+            </tr>
+        </thead>
+        <tbody id="userTable"></tbody>
+    </table>
+
+</div>
+
+<div class="flex-container"  style="padding-top: 1%;display: block;text-align: center; ">
+    <h3 style="font-size: 30px;">Add Event</h3>
+        <form name="form1">
+            <label for="id">Id:</label><br>
+            <input type="text" id="id" name="id"><br>
+            <label for="eventName">EventName:</label><br>
+            <input type="text" id="eventName" name="eventName"><br>
+            <label for="date">Date:</label><br>
+            <input type="text" id="date" name="date"><br>
+            <label for="country">Country:</label><br>
+            <input type="text" id="country" ><br>
+            <!-- <label for="city">City:</label><br>
+            <input type="text" id="city" > -->
+            
+          
+          <br>
+          <button type="button" onclick="CreateUser()" style=" width:3.5rem;height:2rem ;background-color: rgb(202, 82, 106);color: rgb(0, 0, 10);">Create</button>
+          <button type="button" onclick="Update()" style=" width:3.5rem;height:2rem ;background-color: rgb(202, 82, 106);color: rgb(0, 0, 10);">Update</button>
+          <button type="button" onclick="FetchData()" style=" width:3.5rem;height:2rem ;background-color: rgb(202, 82, 106);color: rgb(0, 0, 10);">Fetch</button>
+          
+          </form>
+    
+</div>
+
+
+
+</body>

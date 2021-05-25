@@ -1,0 +1,14 @@
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\bin\Debug\netcoreapp2.1\CalenderApplications.deps.json
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\bin\Debug\netcoreapp2.1\CalenderApplications.runtimeconfig.json
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\bin\Debug\netcoreapp2.1\CalenderApplications.runtimeconfig.dev.json
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\bin\Debug\netcoreapp2.1\CalenderApplications.dll
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\obj\Debug\netcoreapp2.1\CalenderApplications.csprojAssemblyReference.cache
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\obj\Debug\netcoreapp2.1\CalenderApplications.csproj.CoreCompileInputs.cache
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\obj\Debug\netcoreapp2.1\CalenderApplications.RazorAssemblyInfo.cache
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\obj\Debug\netcoreapp2.1\CalenderApplications.RazorAssemblyInfo.cs
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\obj\Debug\netcoreapp2.1\CalenderApplications.AssemblyInfoInputs.cache
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\obj\Debug\netcoreapp2.1\CalenderApplications.AssemblyInfo.cs
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\obj\Debug\netcoreapp2.1\CalenderApplications.RazorTargetAssemblyInfo.cache
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\bin\Debug\netcoreapp2.1\CalenderApplications.pdb
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\obj\Debug\netcoreapp2.1\CalenderApplications.dll
+C:\Users\avneet.kaur\source\repos\CalenderApplications\CalenderApplications\obj\Debug\netcoreapp2.1\CalenderApplications.pdb
